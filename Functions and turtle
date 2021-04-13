@@ -1,0 +1,41 @@
+
+import turtle
+#This displays SEX
+
+
+
+
+# def s_one():
+    #kartik_turtle = turtle.Turtle()
+#
+#     kartik_turtle.speed(1)
+#     kartik_turtle.back(100)
+#     kartik_turtle.right(90)
+#     kartik_turtle.forward(100)
+#     kartik_turtle.left(90)
+#     kartik_turtle.forward(100)
+#     kartik_turtle.right(90)
+#     kartik_turtle.forward(100)
+#     kartik_turtle.right(90)
+#     kartik_turtle.forward(100)
+#     # kartik_turtle.clear()
+
+# s_one()
+kartik_turtle = turtle.Turtle()
+def square():
+
+    kartik_turtle.forward(100)
+    kartik_turtle.right(90)
+    kartik_turtle.forward(100)
+    kartik_turtle.right(90)
+    kartik_turtle.forward(100)
+    kartik_turtle.right(90)
+    kartik_turtle.forward(100)
+
+
+square()
+kartik_turtle.forward(200)
+square()
+kartik_turtle.left(90)
+kartik_turtle.forward(10)
+square()
