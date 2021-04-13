@@ -2,6 +2,16 @@ age = 20
 name = "Kartik"
 lang = "Pyhton"
 
-print(" {0} is {1} years old when he's writing this code".format(name,age))
-print("{0} wants you to learn {1}".format(name,lang))
-print("{} knows he had made a mistake ;) but you should know that numbers are optional between the curly brackets ".format(name))
+ print(" {0} is {1} years old when he's writing this code".format(name,age))
+ print("{0} wants you to learn {1}".format(name,lang))
+ print("{} knows he had made a mistake ;) but you should know that numbers are optional between the curly brackets ".format(name))
+
+print("Here comes the shorter way")
+
+print(f'{name} wants to learn python')
+
+
+print('{0:.5f}'.format(9.0/3)) #The expression written in the curly brackets says that the output would be displays till 5 decimqal digits
+
+print('{0:_^10}'.format("Kartik")) #Represents the given string in the centre
+
