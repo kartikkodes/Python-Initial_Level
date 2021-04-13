@@ -1,0 +1,23 @@
+import turtle 
+
+tot = turtle.Turtle()
+
+def square():
+    tot.forward(100)
+    tot.right(90)
+    tot.forward(100)
+    tot.right(90)
+    tot.forward(100)
+    tot.right(90)
+    tot.forward(100)
+
+# square()    
+
+car_weight = 800
+bike_weight =250
+
+if car_weight < bike_weight:
+    square()
+else:
+        tot.forward(250)
+
