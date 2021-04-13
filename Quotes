@@ -1,0 +1,10 @@
+print('Hello world') #Single quotes
+print("Hello world") #Couble quotes
+
+
+# Triple quotes
+
+print("""My name is kartik and I am
+A student of second
+Year fuck off alexxa
+""")
