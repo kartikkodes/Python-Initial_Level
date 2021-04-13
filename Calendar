@@ -1,0 +1,23 @@
+import calendar
+import datetime
+import time
+
+ print(calendar.weekheader(3))  # 3 is the maximum length
+
+ print(calendar.firstweekday())  # Monday is 0 and it is the first week day
+ print(calendar.setfirstweekday(1))  # Input the numbers associated with the week names for e.x. Monday 0 , Tue 1 , Wed 2 and so on.
+
+ print(calendar.firstweekday())  # Now it willl display tuesday as the first week day
+
+ print(calendar.month(2000, 11))
+ print(calendar.monthcalendar(2000, 11))
+
+ print(calendar.calendar(2000))
+
+ day_of_the_week = calendar.weekday(2021,4,13) #Tuesday it is so it will print 1.
+
+ print(day_of_the_week)
+
+is_leap = calendar.isleap(2021)
+print(is_leap)
+
