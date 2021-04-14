@@ -1,0 +1,14 @@
+ab = {
+    'Kartik' : 'kartik@gmail.com',
+    'Rajat' : 'rajat@gmail.com',
+    'Rajnish' : 'rajnish@yahoo.com'
+}
+
+print(ab['Kartik'])
+del ab['Rajnish']
+print(ab)
+
+print("For loop")
+
+for name,add in ab.items():
+    print('Contact {} at {}'.format(name,add))
