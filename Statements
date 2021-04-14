@@ -1,0 +1,34 @@
+number = 7
+chance = int(input("Enter an integer between 1-10"))
+
+if number == chance:
+    print("Correct")
+elif chance>number:
+    print("Lower than that")
+
+else:
+    print("Higher than that")
+
+print("Done")     
+
+#-----------------------------------------------------------------
+running = True
+while running:
+    guess = int(input("Enter an integer:\n "))
+
+    if guess == number:
+        print("Correct")
+        running =False
+    elif guess>number:
+        print("Lower")
+
+    else:
+        print("Higher")
+
+print("Done")
+#------------------------------------------------------------------
+
+for i in range(1,5):
+    print(i)
+else:
+    print("The for loop is over")
