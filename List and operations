@@ -1,0 +1,16 @@
+shopList = ['apple', 'banana','alexa']
+
+print(len(shopList))
+
+for item in shopList:
+    print(item,end=" ")
+
+print("ADd in list")
+shopList.append('rice')
+print("Now my shopping list is ", shopList)    
+
+print("Sorting th list")
+shopList.sort()
+print("Sorted list is", shopList)
+
+print('First item is ',shopList[0])
