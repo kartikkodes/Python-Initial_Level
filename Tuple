@@ -1,0 +1,6 @@
+zoo = 'dog','monkey','wolf'
+print(zoo)
+print(len(zoo))
+
+newzoo ='monkey','camel',zoo
+print(newzoo)
