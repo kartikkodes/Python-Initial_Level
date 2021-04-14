@@ -1,0 +1,40 @@
+
+# + Plus operator
+#It adds two numbers and strings
+
+print(4+5)
+
+print("a"+"b")
+
+# - Minus
+
+print(5-4)
+
+# * Multiplication
+#It multiplies two numbers and repeat the string that many time
+print(4*5)
+print("OOHLALA "*3)
+
+# ** Power
+print(2**2)
+
+# / Divide
+
+print(20/5)
+
+# // Divide and floor
+print(19//3)
+print(19.3//3)
+
+# % Modulo
+print(10%4)
+print(11.3%4)
+
+# & Bit wise AND 
+print(4 & 6)
+
+# | Bit wise OR
+print(4 | 6)
+
+# ^ Bit wise XOR
+print(4^6)
