@@ -1,0 +1,23 @@
+i =99 
+print(i)
+
+i = i+5
+print(i)
+
+s = '''This is a multilie string.
+This is the second line.'''
+print(s)
+
+#--------------------------------------------------
+print("This is the new part")
+i=5
+print(i)
+
+i= 5;
+print(i);
+
+i=5;print(i);
+
+i=5;print(i)
+
+#All these logical lines means the one and same but writing e=an extra semicolon is a bad coding practice.
