@@ -1,0 +1,8 @@
+print("Kartik's coding") #Method 1 on to use single quotes 
+print('Kartik\'s coding') #Mwthod 2
+
+print("Kartik said ,\"He's coding\"") 
+
+print("Hey folks\nI am KArtik and you're on KartikKodes") # \n is the newline charachter
+
+print(r"Newline are indicated by \n") #Raw strings
