@@ -1,0 +1,11 @@
+bri = set(['brazil','russia','india'])
+print('india' in bri) #Returns true or false values
+print('usa' in bri)
+
+bric =bri.copy() #Copies bri elements in bric
+bric.add('china')
+print(bric.issuperset(bri))
+print(bri.issubset(bric))
+bric.remove('russia')
+
+print(bric & bri) #Common
