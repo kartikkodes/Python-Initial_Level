@@ -1,0 +1,11 @@
+shopList = ['carrot','banana','rat']
+mylist = shopList
+
+print(shopList)
+print(mylist)
+
+del shopList[0] #Changes made in shoplist will be visible in myList
+print(mylist)
+
+delimiter = '_*_'
+print(delimiter.join(shopList)) 
