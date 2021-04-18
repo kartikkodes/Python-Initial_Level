@@ -1,0 +1,15 @@
+print("Welcome ! Enter your name master")
+name = 'Kartik'
+for i in range(0,4):
+    nameInput = input()
+    if name == nameInput:
+        print("Access Granted")
+        break;
+    else:
+        print("Access denied")    
+    i=i+1
+    print(4-i," Chances left")
+if i==4:    
+    print("You have exhausted your chances of loging in! Try later ")    
+else:
+    print("Welcome")    
