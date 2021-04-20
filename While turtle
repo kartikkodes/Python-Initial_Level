@@ -1,0 +1,22 @@
+# print("While loop initiating")
+# kartik = 101
+# while kartik != 105:
+#     print("You are 101% cool dude")
+#     kartik = kartik+1
+# print(kartik)    
+
+import turtle
+
+kartik = turtle.Turtle()
+
+happyRate = 96
+
+while happyRate != 100:
+    kartik.speed(1)
+    kartik.circle(50)
+    happyRate=happyRate+1
+    print(happyRate)
+
+print("Done")
+
+#ADVICE : Shift the turtle window sideways so that you can see the happyrate printing
